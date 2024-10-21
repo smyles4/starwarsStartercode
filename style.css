@@ -3,10 +3,6 @@
 img {
   align-self:center;}
 
-  { .img 
-    display: flex;
-  justify-content: space-evenly;
-  }
 
 @font-face {
   font-family: "SF Distant Galaxy";
@@ -17,16 +13,30 @@ body {
   background-color: #d1a2b8;
 }
 
-
-
 h1 {
   font-family: "SF Distant Galaxy";
+} div {
+  display: flex;
+flex-direction: column;
 }
+.img {
+  flex-direction: column;
+  justify-content: center;
+  ;
+  }
 
+  .im {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    ;
+  }
 
+  .imge {display: flex;
+  flex-direction: column;
+justify-content: center;}
 
-/* computer jjujuuiiu */
-
+/* computer */
 
 @media screen and (min-width: 900px) {
   body {
@@ -37,8 +47,26 @@ h1 {
     display: flex;
   flex-direction: row;
   }
+  .img {
+    flex-direction: row;
+    justify-content: center;
+    ;
+    }
 
+    .im {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      ;
+    }
 
+    .imge {display: flex;
+    flex-direction: row;
+  justify-content: center;
+;}
 
+.texts {display: flex;
+flex-direction: row;
+align-items: center;}
 }
 
