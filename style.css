@@ -1,12 +1,20 @@
 @import url("https://fonts.googleapis.com/css?family=Lato|Poller+One&display=swap");
 
+img {
+  align-self:center;}
+
+  { .img 
+    display: flex;
+  justify-content: space-evenly;
+  }
+
 @font-face {
   font-family: "SF Distant Galaxy";
   src: url("SFDistantGalaxy.ttf") format("truetype");
 }
 /* phone */
 body {
-  background-color: #e4e7ec;
+  background-color: #d1a2b8;
 }
 
 
@@ -18,7 +26,17 @@ h1 {
 
 
 /* computer */
-@media screen and (min-width: 600px) {
+
+
+@media screen and (min-width: 900px) {
+  body {
+    background-color: rgb(185, 121, 142);
+  }
+
+  div {
+    display: flex;
+  flex-direction: row;
+  }
 
 
 
